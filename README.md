@@ -6,6 +6,8 @@ For this project you will recreate the Genius Plaza [About Us Page](https://www.
 
 * video: https://www.geniusplaza.com/media/videos/Genius_Plaza_Hiring_Video.mp4
 
+*All media files start with origin https://www.geniusplaza.com*
+
 ## Getting Started
 
 To get started fork this repository and create feature branches.  The repository already has a starter [create react app](https://github.com/facebook/create-react-app) project you can work with.  Make sure to make frequent and detailed commits.  Once you finish make a detailed pull request and send an email to Dylan@geniusplaza.com.
