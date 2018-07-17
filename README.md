@@ -24,5 +24,23 @@ This project is open ended but things to focus on include:
 * Unit Testing - Either TDD/BDD are appreciated
 * README - Your code should include a README describing the general implementation, outline for future use of any reusable components/functions, and the build process if required.
 
-*Focus first on creating a replica of the existing About Us page meeting these criteria.  After that you can consider implementing any additional features you would like.*
+*Focus first on creating a replica of the existing About Us page meeting these criteria.  After that you can implement any additional features to really show off your skills.*
 
+
+## Extra Credit
+
+If you would like more of a challenge implement a Drag and Drop Note Page.  Something in the design of [Trello](https://trello.com/b/jNPTiiVB/untitled-board). ![Trello Boards](./trello-example.png)
+
+Features are up to you but could include things such as:
+* add list
+* remove list
+* add card
+* edit card
+* remove card
+* card descriptions
+* data persistence
+* drag card to new list
+* attach image to card
+* set card due date
+
+*There is no need to create a separate application, you can implement routing or any other mechanism you're familiar with to incorporate both projects in the repo*
