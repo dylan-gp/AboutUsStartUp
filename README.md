@@ -18,7 +18,7 @@ This project is open ended but things to focus on include:
 * File Structure/Management
 * Good and Latest React Practices - We stay up on the latest in the React/Javascript community here.  Showing that you do the same can be beneficial.
 * Unit Testing - Either TDD/BDD are appreciated
-* README - Your code should include a README describing the general implementation, and the build process if required.
+* README - Your code should include a README describing the general implementation, outline for future use of any reusable components/functions, and the build process if required.
 
 *Focus first on creating a replica of the existing About Us page meeting these criteria.  After that you can consider implementing any additional features you would like.*
 
