@@ -1,6 +1,6 @@
 ## Instructions
 
-For this project you will recreate the Genius Plaza [About Us Page]('https://www.geniusplaza.com/en/aboutus/').  You will need the following:
+For this project you will recreate the Genius Plaza [About Us Page](https://www.geniusplaza.com/en/aboutus/).  You will need the following:
 
 * employee data endpoint: https://gp-frontend-exam.herokuapp.com/get_employees
 
@@ -8,9 +8,9 @@ For this project you will recreate the Genius Plaza [About Us Page]('https://www
 
 ## Getting Started
 
-To get started fork this repository and create feature branches.  The repository already has a starter [create react app]('https://github.com/facebook/create-react-app') project you can work with.  Make sure to make frequent and detailed commits.  Once you finish make a detailed pull request and send an email to Dylan@geniusplaza.com.
+To get started fork this repository and create feature branches.  The repository already has a starter [create react app](https://github.com/facebook/create-react-app) project you can work with.  Make sure to make frequent and detailed commits.  Once you finish make a detailed pull request and send an email to Dylan@geniusplaza.com.
 
-*[Good Git Flow]('https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow')*
+*[Good Git Flow](https://www.atlassian.com/git/tutorials/comparing-workflows/gitflow-workflow)*
 
 ## Focus
 
