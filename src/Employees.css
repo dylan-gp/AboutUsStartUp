@@ -1,0 +1,29 @@
+.employees-wrap {
+
+}
+.meet-the-team {
+  position: relative;
+  text-align: center;
+}
+.meet-the-team:before {
+  content: "";
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  background: #2d3e50 none repeat scroll 0 0;
+  bottom: 0;
+  height: 2px;
+  width: 230px;
+}
+
+.meet-the-team h3 {
+  color: #2d3e50;
+  font-size: 30px;
+  padding-bottom: 10px;
+}
+.employee-grid {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
