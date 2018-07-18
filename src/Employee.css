@@ -1,0 +1,15 @@
+.grid-item {
+  text-align: center;
+}
+.emp-img {
+  border-radius: 20px;
+  border: 0;
+  vertical-align: top;
+  height: 270px;
+  width: 270px;
+}
+.emp-info {
+  color: #03a9f4;
+  font-family: Montserrat;
+  font-weight: 900;
+}

@@ -1,6 +1,7 @@
 .heading {
   color: white;
-  font-family: montserratsemi_bold;
+  font-family: Montserrat;
+  font-weight: bold;
   font-size: 36px;
   background-color: #03a9f4;
   text-align: center;
@@ -12,8 +13,11 @@
 }
 .main-copy {
   margin: auto;
-  width: 1200px;
+  width: 60%;
+  font-size: calc(12px + 0.5vw);
   color: #03a9f4!important;
+  font-family: Montserrat;
+  font-weight: 300;
   line-height: 30px;
   -webkit-animation: font-animation .3s ease 0s;
   -o-animation: font-animation .3s ease 0s;
