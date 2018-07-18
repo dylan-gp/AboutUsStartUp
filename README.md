@@ -1,6 +1,6 @@
 ## Instructions
 
-For this project you will recreate the Genius Plaza [About Us Page](https://www.geniusplaza.com/en/aboutus/).  You will need the following:
+For this project you will recreate the Genius Plaza [About Us Page](https://www.geniusplaza.com/en/aboutus/) (header and footer excluded.)  You will need the following:
 
 * employee data endpoint: https://gp-frontend-exam.herokuapp.com/get_employees
 
