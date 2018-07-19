@@ -7,8 +7,8 @@ class Employee extends Component {
       <div className="grid-item">
         <img className="emp-img" src={ this.props.url } alt={ this.props.alt }/>
         <div className="emp-info">
-          <p>{ this.props.name }</p>
-          <p>{ this.props.title }</p>
+          <p className="emp-name">{ this.props.name }</p>
+          <p className="emp-title">{ this.props.title }</p>
         </div>
       </div>
     );
