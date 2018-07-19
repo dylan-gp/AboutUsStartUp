@@ -1,0 +1,33 @@
+.wrap {
+  margin-top: 500px;
+  padding-top: 100px;
+  padding-bottom: 500px;
+  background: gray;
+}
+
+.wrapTrello {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  margin-bottom: 50px;
+}
+
+#newt {
+  margin-bottom: 10px;
+}
+
+.section {
+  background: lightgray;
+  text-align: center;
+  width: 80%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.card {
+  text-align: left;
+  background: white;
+  height: 24px;
+  width: 50%;
+  margin: auto;
+  border-radius: 4px;
+}
