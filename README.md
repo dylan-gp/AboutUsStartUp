@@ -28,7 +28,20 @@ Trello Extra Credit:
     4 Areas labeled To Do, Doing, Done, and Delete.
     Create an item in any of the 3 data sections, and drag and drop anywhere you like.
     To delete, drag to the delete area.
-    
+
+    The general concept:
+      The cards are stored in the state, within the todo, doing, and done, arrays.
+      The boxes display the contents of those arrays.
+      Based on the drag events, the arrays are updated with the setter and remove
+      functions.  When a card is in the air, its value is stored in a temp value.
+      When its dropped, that temp value is added to the designated array.
+
+Overall:
+  This was a fun challenge! I enjoyed the both projects and look forward to hearing what you guys think. 
+  I put a little of my own style on the about page:
+    The stripes in the background are fun, and they are an easy way to give some texture.
+    This allows the main part of the page (that we want the user to read) to pop with a
+    little shadow. The lines are now more solid and the page seems to me to be more cohesive. 
 
 
 
