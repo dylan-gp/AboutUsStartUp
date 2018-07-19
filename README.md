@@ -1,3 +1,93 @@
+Genius Plaza About Page:
+
+The components are:
+      App
+      |___MainCopy
+      |___Employees
+          |___Employee
+MainCopy Component:
+  takes a 'vidurl' attribute, which should be the url to the desired video, 
+  and all of the children inside the MainCopy component, idealy the copy,  
+  are shown above the video. 
+Employees Component:
+  takes a url where it can request the employee info. Mainly, this component
+  is a delegator, creating the components and organizing them into the grid.
+  Function: 
+    I used axios to create the get request, which runs only when the component
+     first mounts. 
+Employee Component(yes I regret choosing this name):
+  takes a url, alt, name, and title, which are used to build one member of the
+  employee grid. Each of these members include an image using the given 
+  url and alt, the given name, and the given title.
+
+
+Trello Extra Credit:
+  I threw what I put together at the bottom of the about page, for simplicity.
+  
+  Trello:
+    4 Areas labeled To Do, Doing, Done, and Delete.
+    Create an item in any of the 3 data sections, and drag and drop anywhere you like.
+    To delete, drag to the delete area.
+
+    The general concept:
+      The cards are stored in the state, within the todo, doing, and done, arrays.
+      The boxes display the contents of those arrays.
+      Based on the drag events, the arrays are updated with the setter and remove
+      functions.  When a card is in the air, its value is stored in a temp value.
+      When its dropped, that temp value is added to the designated array.
+
+Overall:
+  This was a fun challenge! I enjoyed the both projects and look forward to hearing what you guys think. 
+  I put a little of my own style on the about page:
+    The stripes in the background are fun, and they are an easy way to give some texture.
+    This allows the main part of the page (that we want the user to read) to pop with a
+    little shadow. The lines are now more solid and the page seems to me to be more cohesive. 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ## Instructions
 
 For this project you will recreate the Genius Plaza [About Us Page](https://www.geniusplaza.com/en/aboutus/) (header and footer excluded.)  You will need the following:
