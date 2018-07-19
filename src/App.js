@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import './App.css';
 import MainCopy from './MainCopy.js';
 import Employees from './Employees.js';
+import Trello from './trello.js';
 
 class App extends Component {
   render() {
@@ -16,6 +17,7 @@ class App extends Component {
           We offer a solid foundation in math and language arts, together with the strongest parent engagement tools in the ed tech industry. Our online curriculum is fully bilingual, and the content is culturally relevant and authentic. We don't only guarantee graduation, but we work toward college readiness. We believe that ALL of our kids are college material.
         </MainCopy>
         <Employees url="https://gp-frontend-exam.herokuapp.com/get_employees"></Employees>
+        <Trello></Trello>
       </div>
     );
   }
