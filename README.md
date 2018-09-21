@@ -1,12 +1,21 @@
 ## Instructions
 
-For this project you will recreate the Genius Plaza [About Us Page](https://www.geniusplaza.com/en/aboutus/).  You will need the following:
+You are being asked to implement a Drag and Drop Note Page.  Something in the design of [Trello](https://trello.com/b/jNPTiiVB/untitled-board). ![Trello Boards](./trello-example.png)
 
-* employee data endpoint: https://gp-frontend-exam.herokuapp.com/get_employees
+This project is a chance to show off your skills.  There are no specific requirements just a general outline of what to create.  You are not expected to complete all of the features and extra credit.  Please do not spend more than 8 hours on the project.
 
-* video: https://www.geniusplaza.com/media/videos/Genius_Plaza_Hiring_Video.mp4
+Features are up to you but could include things such as:
+* add list
+* remove list
+* add card
+* edit card
+* remove card
+* card descriptions
+* drag card to new list
+* attach image to card
+* set card due date
+* responsive design
 
-*All media files start with origin https://www.geniusplaza.com*
 
 ## Getting Started
 
@@ -24,23 +33,31 @@ This project is open ended but things to focus on include:
 * Unit Testing - Either TDD/BDD are appreciated
 * README - Your code should include a README describing the general implementation, outline for future use of any reusable components/functions, and the build process if required.
 
-*Focus first on creating a replica of the existing About Us page meeting these criteria.  After that you can implement any additional features to really show off your skills.*
+<!-- *Focus first on creating a replica of the existing About Us page meeting these criteria.  After that you can implement any additional features to really show off your skills.* -->
 
 
 ## Extra Credit
 
-If you would like more of a challenge implement a Drag and Drop Note Page.  Something in the design of [Trello](https://trello.com/b/jNPTiiVB/untitled-board). ![Trello Boards](./trello-example.png)
+If you have some time left over feel free to take a stab at the extra credit
 
-Features are up to you but could include things such as:
-* add list
-* remove list
-* add card
-* edit card
-* remove card
-* card descriptions
-* data persistence
-* drag card to new list
-* attach image to card
-* set card due date
+* There's mock signup and login endpoints in server.js.  Run `node server` and make your requests in application/json format to localhost:5000 to encorporate a login and signup page.
+	- /signup
+		- request body: {
+			username,
+			password
+		}
+		- response: {
+			success: true
+		}
+	-	/login
+		- request body: {
+			username,
+			password
+		}
+		- response: {
+			token
+		}
+* Create endpoints in server.js to save and retrieve your board progress.  Make sure to send along your auth token to incorporate different boards for different users.  Feel free to design the data in whatever way you see fit.
+* Add SASS or LESS support
 
-*There is no need to create a separate application, you can implement routing or any other mechanism you're familiar with to incorporate both projects in the repo*
+<!-- *There is no need to create a separate application, you can implement routing or any other mechanism you're familiar with to incorporate both projects in the repo* -->
